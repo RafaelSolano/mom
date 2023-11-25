@@ -76,7 +76,17 @@ body{
 .logos{
     display: flex;
     justify-content: space-between;
+    height: 100px;
 }
 .logo{
     width: 250px;
+    height: 100px;
+    object-fit: contain;
+}
+
+footer{
+    height: 600px;
+    background-image: url(../src/footer/footer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
