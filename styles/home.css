@@ -16,8 +16,9 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
+    flex-direction: column;
     align-items: end;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .menu{
@@ -26,7 +27,7 @@ body{
 }
 
 .buton_menu{
-    width: 100px;
+    width: 140px;
 }
 
 
@@ -41,7 +42,7 @@ body{
 .courses{
     padding-top: 200px;
     padding-bottom: 50px;
-    
+ 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -54,22 +55,25 @@ body{
   
 }
 .course__img{
-    width: 300px;
+    max-width:  350px;
+    
 }
 
 
 .cards_container{
+display: flex;
     
 }
 .cards{
-    width: 100%;
-    height: 500px;
+    height: 800px;
+  
     background-image: url('../src/cards/cards.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .donaciones{
+    width: 100%;
     height: 400px;
 }
 
