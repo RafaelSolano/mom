@@ -104,3 +104,9 @@ footer{
 
 
 }
+.redes_container{
+    display: flex;
+}
+.redes_container img{
+    width: 54px;
+}
