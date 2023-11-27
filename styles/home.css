@@ -11,10 +11,11 @@ body{
 }
 .header{
     height: 400px;
-    width: 100%;
+    width: 90%;
     background-image: url('../src/home/home.jpg');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -35,7 +36,7 @@ body{
 .carrousel__img{
     object-fit: contain;
     width: 100%;
-    height: 350px;
+    max-height: 350px;
 
 }
 
@@ -65,7 +66,7 @@ display: flex;
     
 }
 .cards{
-    height: 800px;
+    max-height: 800px;
   
     background-image: url('../src/cards/cards.jpg');
     background-size: contain;
@@ -74,17 +75,18 @@ display: flex;
 
 .donaciones{
     width: 100%;
-    height: 400px;
+    max-height: 400px;
 }
 
 .logos{
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    flex-wrap: nowrap;
+    max-height: 100px;
 }
 .logo{
-    width: 250px;
-    height: 100px;
+    max-width: 250px;
+    max-height: 100px;
     object-fit: contain;
 }
 
@@ -92,7 +94,7 @@ footer{
     display: flex;
     justify-content: end;
     align-items: center;
-    height: 300px;
+    max-height: 300px;
     width: 100%;
     background-color: #F19BC0;
     background-image: url(../src/footer/footer.jpeg);
@@ -114,4 +116,9 @@ footer{
 }
 .redes_container img{
     width: 54px;
+}
+
+iframe{
+    max-width:"400";
+     max-height:"250";
 }
