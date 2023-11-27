@@ -67,7 +67,7 @@ display: flex;
 }
 .cards{
     max-height: 800px;
-  
+  min-height: 800px;
     background-image: url('../src/cards/cards.jpg');
     background-size: contain;
     background-repeat: no-repeat;

@@ -24,7 +24,7 @@ justify-content: center;
 
 
 .cards{
-    height: 212px;
+    min-height: 212px;
 }
 
 .logos{
